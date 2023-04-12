@@ -1,4 +1,4 @@
-#  Website Lik
+#  Website Link
 
 # Frontend Mentor - NFT preview card component
 
