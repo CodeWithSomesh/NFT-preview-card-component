@@ -30,4 +30,4 @@ The designs were created to the following widths:
 ### Font
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 300, 400, 600
+- Weights: 300, 400, 600 
