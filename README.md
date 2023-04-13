@@ -14,6 +14,7 @@ https://codewithsomesh.github.io/NFT-preview-card-component/
 
 ## Mobile Version (375px)
 
+https://res.cloudinary.com/dz209s6jk/image/upload/v1637599339/Challenges/eer3i8da4ium6kvg8clx.jpg
 
 #### Note:
 > Built using HTML & CSS
