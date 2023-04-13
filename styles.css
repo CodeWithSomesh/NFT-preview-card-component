@@ -10,10 +10,13 @@ body{
     
     background-color: hsl(217, 54%, 11%);
     color: white;
-    margin: 20% 30%;
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
-
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 
@@ -22,39 +25,166 @@ body{
     background-color: hsl(216, 50%, 16%);
     border-radius: 19px;
     text-align: left;
-    padding: 5%;
-    margin-bottom: 3%;
+    padding: 1.6%;
+    width: 283px;
 
+}
+
+.nft-image-container {
+    
+    position: relative; 
 }
 
 .nft-image {
 
-    border-radius: 19px;
-    overflow: hidden;
-    max-width: 100%;
-    
-    
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+}
 
+.overlay {
+
+    position: absolute;
+    height: 98%;
+    width: 100%;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 50%);
+    border-radius: 12px;
+    opacity: 0;
+}
+
+.overlay:hover{
+
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+.overlay img {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h3 {
-    
-    margin: 5% 0;
+
     font-weight: 600;
-    font-size: 22px;
-    color: white;
+    margin: 8% 0;
+
+}
+
+h3:hover {
+
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 
+.nft-text p{
 
+    margin-bottom: 8%;
+    color: hsl(215, 51%, 70%);
+    line-height: 150%;
+    font-weight: 300;
+}
 
+.nft-details{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-details{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.nft-price{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-time{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    margin-bottom: 6%;
+   
+}
+
+.creator-details{
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.creator-details img{
+
+    width: 13%;
+    border: 1.5px solid;
+    border-color: white;
+    border-radius: 50%;
+    margin-right: 6%;
+    
+}
+
+.creator-details p{
+
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+span {
+
+    color:white;
+}
+
+span:hover {
+
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin-top: 2%;
 }
 
 
 .attribution a { 
     color: aqua; 
+}
+
+@media (min-width: 374px) {
+
+    .card {
+
+        padding: 20px;
+    
+    }
+
 }
